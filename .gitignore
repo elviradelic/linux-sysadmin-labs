@@ -1,0 +1,7 @@
+# Local monitoring reports
+/reports/
+
+# Local permission testing files
+/labs/02-file-permissions/audit-test/
+/labs/02-file-permissions/private.txt
+/labs/02-file-permissions/public.txt

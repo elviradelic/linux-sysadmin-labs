@@ -1,0 +1,13 @@
+[Unit]
+Description=Linux Service Health Monitor
+After=network.target
+
+[Service]
+Type=oneshot
+User=sysadmin
+WorkingDirectory=/home/sysadmin/linux-sysadmin-labs
+
+ExecStart=/usr/bin/bash -c 'exec /home/sysadmin/linux-sysadmin-labs/scripts/service-health-check.sh --services ssh cron --output "/home/sysadmin/linux-sysadmin-labs/reports/service-health-$(date +%%Y%%m%%d-%%H%%M%%S).log"'
+
+StandardOutput=journal
+StandardError=journal
