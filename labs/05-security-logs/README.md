@@ -1,4 +1,6 @@
 
+
+
 # Lab 05 — Linux Security Log Analysis
 
 ## Overview
@@ -69,3 +71,8 @@ The included fixture uses documentation-only IP addresses and contains no real c
 Implemented and tested a read-only SSH log analyzer using Bash, `journalctl`, `grep`, `awk`, `sort`, and `uniq`.
 
 The lab demonstrates practical Linux log inspection, shell scripting, input validation, and automated testing.
+
+
+
+
+
